@@ -22,11 +22,7 @@ jQuery(document).ready(function($){
 
 	 $(".dropdown-button").dropdown();
 	
-  $('#store').hover(function(){
-	  $('.tap-target').tapTarget('open');
-});
-	
-	    //Disable cut copy paste
+	 //Disable cut copy paste
     $('body').bind('cut copy paste', function (e) {
         e.preventDefault();
     });
