@@ -36,6 +36,24 @@ jQuery(document).ready(function($){
         return false;
     });
 
+mixitup('#mix-wrapper', {
+  load: {
+  	sort: 'order:asc'
+  },
+	animation: {
+    effects: 'fade',
+    duration: 700
+  },
+  classNames: {
+    block: 'js-filters',
+    elementFilter: 'filter-btn',
+    elementSort: 'sort-btn'
+  },
+  selectors: {
+    target: '.mix-target'
+  }
+});	
+	
 //var isMSIE = /*@cc_on!@*/11;
 //if (isMSIE) {
 //  	$('.owl-item-bg').css("width", 'auto');

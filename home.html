@@ -239,9 +239,14 @@
 	<!-- .js-slider-wrapper -->
 		<div class="cd-projects-wrapper">
 				<a href="#0" class="js-close-menu">Close<span></span></a>
-
-		<ul class="cd-slider">
-			<li class="current">
+<div class="js-filters">
+          <button class="filter-btn waves-effect waves-light btn" data-filter="all">All</button>
+          <button class="filter-btn waves-effect waves-light btn" data-filter=".portraits">Portraits</button>
+          <button class="filter-btn waves-effect waves-light btn" data-filter=".weddings">Weddings</button>
+          <button class="filter-btn waves-effect waves-light btn" data-filter=".events">Events</button>
+        </div>
+		<ul id="mix-wrapper" class="cd-slider">
+			<li class="current mix-target portraits">
 				<a href="https://gallery.beautifulpixels.com.au/" target="_blank">
 					<img src="img/bp_main_portrait_slide_dog.png" alt="project image">
 					<div class="project-info">
@@ -250,7 +255,7 @@
 					</div>
 				</a>
 			</li>
-			<li>
+			<li class="mix-target weddings events">
 				<a href="http://gallery.beautifulpixels.com.au/antheaandmarkswedding/" target="_blank">
 					<img src="img/bp_main_wedding_slide03.png" alt="project image">
 					<div class="project-info">
@@ -260,7 +265,7 @@
 				</a>
 			</li>
 
-			<li>
+			<li class="mix-target events">
 				<a href="http://gallery.beautifulpixels.com.au/gbsfundraiser/" target="_blank">
 					<img src="img/bp_portfolio_event01.png" alt="project image">
 					<div class="project-info">
@@ -269,7 +274,7 @@
 					</div>
 				</a>
 			</li>
-						<li>
+						<li class="mix-target events">
 				<a href="" target="_blank">
 					<img src="img/bp_portfolio_event02.png" alt="project image">
 					<div class="project-info">
@@ -548,6 +553,8 @@
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1cpUGE6PSTj05ZDZXiA3b8bWjXuEBF0A"></script>
 		<script src="js/main.js"></script>
 		<script src="js/gallery.js"></script>
+		<script src="js/mixitup.min.js"></script>
+
 		<!-- Resource jQuery -->
 
 </body>

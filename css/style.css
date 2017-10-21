@@ -282,8 +282,12 @@ max-width: 100%;
   margin-top: 0;
   text-transform: uppercase;
 }
-
-
+.js-filters {
+position: absolute;
+top: 15%;
+left: 50%;
+z-index: 5;
+}
 /*-----------
   nav hover
 ------------*/
