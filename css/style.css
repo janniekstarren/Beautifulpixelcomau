@@ -253,7 +253,6 @@ max-width: 100%;
   font-size: 3rem;
   font-weight: 900;
   margin-bottom: 0;
-  text-transform: uppercase;
 }
 
 .slide-caption-title:before{
@@ -534,7 +533,12 @@ background-color: #DCD0C0
 
 }
 .js-slider li:nth-of-type(3) .content {
- background-color: #F4F4F4
+ background-color: #F4F4F4;
+ background-image: url(../img/bp_wedding_bg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
 
 }
 .js-slider li:nth-of-type(4) .content {
@@ -555,6 +559,13 @@ background-color: #000;
   font-size: 2.2rem;
   margin-bottom: .4em;
 }
+
+.wedding {
+    font-family: "spumante";
+    font-size: 4rem!important;
+    text-align: center;
+}
+
 .js-slider p {
   font-size: 1.4rem;
 }
@@ -770,6 +781,18 @@ left: 8%;
 	width:250px;
 }
 
+.js-logo-top-wedding {
+    position: absolute;
+    top: 20px;
+    right: 8%;
+    z-index: 9999;
+}
+@media (max-width: 640px) {
+.js-logo-top-wedding {
+	display: none;
+	}
+}
+	
 @media (max-width: 640px) {
 .js-logo-top {
 	display: none;
