@@ -132,6 +132,7 @@ min-height: 300px;
 }
 #owlCarousel:hover .owl-nav{
 	opacity: 1;
+	
 }
 /* slider container */
 .owl-item {
@@ -158,6 +159,7 @@ max-width: 100%;
     background-size: cover;
 	object-fit: cover;
 }
+
 
 /* previous/next slider control container */
 .owl-nav {
@@ -560,10 +562,19 @@ background-color: #000;
   margin-bottom: .4em;
 }
 
-.wedding {
+.wedding h2 {
     font-family: "spumante";
     font-size: 4rem!important;
     text-align: center;
+}
+
+.wedding p {
+	text-align: center;
+}
+
+.slide-navigation {
+	text-align: center;
+
 }
 
 .js-slider p {
@@ -657,6 +668,8 @@ background-color: #000;
   }
   .js-slider p {
     font-size: 1.6rem;
+    padding: 25px 0;
+
   }
   .js-slider h2 {
     font-size: 3.5rem;
@@ -779,6 +792,10 @@ top: 20px;
 left: 8%;
 	height:50px; 
 	width:250px;
+}
+
+.text-spacer {
+	padding: 15px 0;;
 }
 
 .js-logo-top-wedding {

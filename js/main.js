@@ -270,7 +270,7 @@ function centerSlideImages( event ) {
 	//set your google maps parameters
 	var latitude = -33.92078,
 		longitude = 151.2563519,
-		map_zoom = 15;
+		map_zoom = 13;
 
 
 
