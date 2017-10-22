@@ -562,6 +562,47 @@ background-color: #000;
   margin-bottom: .4em;
 }
 
+.js-mobile-nav {
+	background-color: #343434;
+	
+}
+
+.btn-floating.btn-large {
+	background-color: #343434;
+}
+
+.js-mobile-nav li {
+	position: relative;
+}
+
+@media only screen and (min-width: 760px) {
+	#js-mobile-nav-id, #js-mobile-nav-id-portrait, #js-mobile-nav-id-wedding, #js-mobile-nav-id-contact {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+.slide-navigation {
+	display: none;
+}
+}
+
+.fixed-action-btn {
+	top:55%;
+}
+
+#js-mobile-nav-id-contact .btn-floating.btn-large {
+	background-color: #C0B283;
+}
+#js-mobile-nav-id-contact i {
+
+	color: #343434
+}
+
+#js-mobile-nav-id-contact .js-mobile-nav {
+	background-color: #C0B283;
+}
+
 .wedding h2 {
     font-family: "spumante";
     font-size: 4rem!important;
